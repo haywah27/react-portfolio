@@ -2,7 +2,6 @@ import "./mediaCard.css";
 import React from "react";
 import {
   Tooltip,
-  Popover,
   OverlayTrigger,
   Card,
   Button,
@@ -40,7 +39,7 @@ function MediaCard() {
     <Card className="mediaCard text-center cardCss">
       <Card.Body>
         <Card.Title className="title">Find Me Here</Card.Title>
-        <hr className="hr"/>
+        <hr />
         <OverlayTrigger
           placement="bottom"
           delay={{ show: 400, hide: 10 }}

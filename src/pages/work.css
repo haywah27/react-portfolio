@@ -1,0 +1,10 @@
+.cardContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.pageFiller {
+  height: calc(100vh - 300px);
+}

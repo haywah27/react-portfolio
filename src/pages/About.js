@@ -18,7 +18,7 @@ function About() {
             </Container>
             <Card className="cardCss">
               <Card.Body>
-                My name is Hayley. I graduated from the University of Oregon with an art and technology degree and have recentley shifted my focus to full stack development. I love dogs, learning new things and exploring the outdoors!
+                My name is Hayley. I graduated from the University of Oregon with a Bachelor of Science Degree in Art and Technology. Recently, I have shifted my focus from design to full stack development. I love dogs, learning new things and exploring the outdoors!
               </Card.Body>
             </Card>
           </Container>

@@ -22,8 +22,8 @@
   font-size: 30px;
 }
 
-.hr{
-  background-color:white;
+hr {
+  background-color: white;
   margin-bottom: 1.5rem;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .email {
-  background-color: #CCCCCC;
+  background-color: #cccccc;
 
   border: none;
 }
@@ -48,14 +48,14 @@
 }
 
 .resume {
-  background-color: #A65B69;
+  background-color: #a65b69;
   border: none;
 }
 
 .email:hover {
   background-color: transparent !important;
-  color: #CCCCCC;
-  border-color: #CCCCCC;
+  color: #cccccc;
+  border-color: #cccccc;
   border-style: solid;
   border-width: 1px;
 }
@@ -78,8 +78,8 @@
 
 .resume:hover {
   background-color: transparent !important;
-  color: #A65B69;
-  border-color: #A65B69;
+  color: #a65b69;
+  border-color: #a65b69;
   border-style: solid;
   border-width: 1px;
 }

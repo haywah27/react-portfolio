@@ -2,9 +2,9 @@
 
 import React from "react";
 import "./contact.css";
-import { Jumbotron, Container, Button, Form } from "react-bootstrap";
+import { Jumbotron, Container } from "react-bootstrap";
 import Navigation from "../components/Nav/Nav";
-import ContactForm from "../components/Form/Form";
+// import ContactForm from "../components/Form/Form";
 import MediaCard from "../components/MediaCard/MediaCard";
 
 function Contact() {

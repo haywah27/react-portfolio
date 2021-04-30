@@ -1,0 +1,18 @@
+.card {
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+}
+.leftButton {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #556491 !important;
+  border-color: #556491 !important;
+}
+
+button:hover {
+  background-color: #AF749B!important;
+  border-color: #AF749B!important;
+}
