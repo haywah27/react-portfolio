@@ -37,33 +37,34 @@ function MediaCard() {
     </Tooltip>
   );
   return (
-    <Card className="mediaCard text-center">
+    <Card className="mediaCard text-center cardCss">
       <Card.Body>
-        <Card.Title>Find Me Here</Card.Title>
-        <hr />
+        <Card.Title className="title">Find Me Here</Card.Title>
+        <hr className="hr"/>
         <OverlayTrigger
           placement="bottom"
-          delay={{ show: 50, hide: 10 }}
+          delay={{ show: 400, hide: 10 }}
           overlay={renderEmailTooltip}
         >
-          <Button className="icon">
-            <FontAwesomeIcon
-              onClick={() =>
-                (window.location.href = "mailto:hayleywahlroos@gmail.com")
-              }
-              icon={faEnvelope}
-              size="2x"
-            ></FontAwesomeIcon>
+          <Button
+            className="icon email"
+            size="lg"
+            onClick={() =>
+              (window.location.href = "mailto:hayleywahlroos@gmail.com")
+            }
+          >
+            <FontAwesomeIcon icon={faEnvelope} size="2x"></FontAwesomeIcon>
           </Button>
         </OverlayTrigger>
 
         <OverlayTrigger
           placement="bottom"
-          delay={{ show: 50, hide: 10 }}
+          delay={{ show: 400, hide: 10 }}
           overlay={renderGithubTooltip}
         >
           <Button
-            className="icon"
+            className="icon github"
+            size="lg"
             onClick={() => window.open("https://github.com/haywah27", "_blank")}
           >
             <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
@@ -72,11 +73,12 @@ function MediaCard() {
 
         <OverlayTrigger
           placement="bottom"
-          delay={{ show: 50, hide: 10 }}
+          delay={{ show: 400, hide: 10 }}
           overlay={renderLinkedinTooltip}
         >
           <Button
-            className="icon"
+            className="icon linkedIn"
+            size="lg"
             onClick={() =>
               window.open("https://www.linkedin.com/in/wahlroos/", "_blank")
             }
@@ -87,10 +89,14 @@ function MediaCard() {
 
         <OverlayTrigger
           placement="bottom"
-          delay={{ show: 50, hide: 10 }}
+          delay={{ show: 400, hide: 10 }}
           overlay={renderResumeTooltip}
         >
-          <Button onClick={() => window.open(Resume)}>
+          <Button
+            className="resume"
+            size="lg"
+            onClick={() => window.open(Resume)}
+          >
             <FontAwesomeIcon icon={faFile} size="2x"></FontAwesomeIcon>
           </Button>
         </OverlayTrigger>

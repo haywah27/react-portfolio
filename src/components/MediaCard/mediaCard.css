@@ -8,8 +8,78 @@
   margin-left: auto;
 }
 
+.cardCss {
+  border: 15px solid white;
+  padding: 1rem;
+  font-size: 2em;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.hr{
+  background-color:white;
+  margin-bottom: 1.5rem;
+}
+
 .icon {
   margin-right: 10px;
 }
 
+.email {
+  background-color: #CCCCCC;
 
+  border: none;
+}
+
+.github {
+  background-color: #444;
+  border: none;
+}
+
+.linkedIn {
+  background-color: #007bb6;
+  border: none;
+}
+
+.resume {
+  background-color: #A65B69;
+  border: none;
+}
+
+.email:hover {
+  background-color: transparent !important;
+  color: #CCCCCC;
+  border-color: #CCCCCC;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.github:hover {
+  background-color: transparent !important;
+  color: #444;
+  border-color: #444;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.linkedIn:hover {
+  background-color: transparent !important;
+  color: #007bb6;
+  border-color: #007bb6;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.resume:hover {
+  background-color: transparent !important;
+  color: #A65B69;
+  border-color: #A65B69;
+  border-style: solid;
+  border-width: 1px;
+}
