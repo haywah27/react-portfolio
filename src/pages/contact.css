@@ -6,3 +6,7 @@
   background-color: transparent;
   padding: 0;
 }
+
+.pageFiller {
+  height: calc(100vh - 300px);
+}

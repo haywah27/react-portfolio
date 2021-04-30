@@ -1,9 +1,15 @@
 import "./mediaCard.css";
 import React from "react";
-import { Tooltip, OverlayTrigger, Card, Button } from "react-bootstrap";
+import {
+  Tooltip,
+  Popover,
+  OverlayTrigger,
+  Card,
+  Button,
+} from "react-bootstrap";
+import Resume from "../../assets/Hayley-Wahlroos.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function MediaCard() {
@@ -26,7 +32,7 @@ function MediaCard() {
   );
 
   const renderEmailTooltip = (props) => (
-    <Tooltip id="button-tooltip" {...props}>
+    <Tooltip id="tooltip-bottom" {...props}>
       Email
     </Tooltip>
   );
@@ -41,7 +47,13 @@ function MediaCard() {
           overlay={renderEmailTooltip}
         >
           <Button className="icon">
-            <FontAwesomeIcon icon={faEnvelope} size="2x"></FontAwesomeIcon>
+            <FontAwesomeIcon
+              onClick={() =>
+                (window.location.href = "mailto:hayleywahlroos@gmail.com")
+              }
+              icon={faEnvelope}
+              size="2x"
+            ></FontAwesomeIcon>
           </Button>
         </OverlayTrigger>
 
@@ -78,7 +90,7 @@ function MediaCard() {
           delay={{ show: 50, hide: 10 }}
           overlay={renderResumeTooltip}
         >
-          <Button>
+          <Button onClick={() => window.open(Resume)}>
             <FontAwesomeIcon icon={faFile} size="2x"></FontAwesomeIcon>
           </Button>
         </OverlayTrigger>
