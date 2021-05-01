@@ -11,7 +11,7 @@ function Contact() {
     <div>
       <Navigation />
       <Container>
-        <Jumbotron className="jumbo ">
+        <Jumbotron className="jumbo">
           <Container>
             <MediaCard />
             {/* <ContactForm /> */}

@@ -1,11 +1,11 @@
 import React from "react";
-import { Jumbotron, Container, Button, Form } from "react-bootstrap";
+import { Jumbotron, Button, Form } from "react-bootstrap";
 import "./form.css";
 
 function ContactForm() {
-    function handleSumbit() {}
+  function handleSumbit() {}
 
-    function cancelForm() {}
+  function cancelForm() {}
 
   return (
     <>
@@ -29,10 +29,20 @@ function ContactForm() {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows={3} placeholder="What's up?" />
           </Form.Group>
-          <Button variant="primary" type="submit" className="submitBtn" onClick={handleSumbit()}>
+          <Button
+            variant="primary"
+            type="submit"
+            className="submitBtn"
+            onClick={handleSumbit()}
+          >
             Submit
           </Button>
-          <Button variant="primary" type="submit" className="cancelBtn" onClick={cancelForm()}>
+          <Button
+            variant="primary"
+            type="submit"
+            className="cancelBtn"
+            onClick={cancelForm()}
+          >
             Cancel
           </Button>
         </Form>

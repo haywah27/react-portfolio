@@ -1,9 +1,9 @@
-.footer{
-    display:flex;
-    border-top: 15px solid white;
-    margin-bottom:0!important;
-    justify-content: center!important;
-    align-items: center;
+.footer {
+  display: flex;
+  border-top: 15px solid white;
+  margin-bottom: 0 !important;
+  justify-content: center !important;
+  align-items: center;
 }
 
 .clipboardButton {
@@ -12,49 +12,57 @@
   color: white;
 }
 
-.footerMargin{
-    margin: auto;
-    width: auto;
-    text-align: center;
+.footerMargin {
+  margin: auto;
+  width: auto;
+  text-align: center;
 }
 
-.footLink{
-    margin: 0.1em;
-    font-size: 1.75em;
-    letter-spacing: 0.1em;
-    text-indent: 0.3em;
-    color: white !important;
-    font-weight: 500 !important;
-    padding: 0.25em;
+.footLink {
+  margin: 0.1em;
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+  text-indent: 0.3em;
+  color: white !important;
+  font-weight: 500 !important;
+  padding: 0.25em;
 }
 
-.footLinkSeperator{
-    margin: 0.1em;
-    font-size: 1.75em;
-    letter-spacing: 0.1em;
-    text-indent: 0.3em;
-    color: white !important;
-    font-weight: 500 !important;
-    padding: 0.25em;
+.footLinkSeperator {
+  margin: 0.1em;
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+  text-indent: 0.3em;
+  color: white !important;
+  font-weight: 500 !important;
+  padding: 0.25em;
 }
 
-.navbarColapse{
-    text-align: center!important;
+.navbarColapse {
+  text-align: center !important;
 }
 
-.footLink:hover{
-    color:#3d3d3d!important;
+.footLink:hover {
+  color: #3d3d3d !important;
 }
 
 @media (max-width: 400px) {
-    .footLink{
-        margin: 0.1em;
-        font-size: 1.1em!important;
-        letter-spacing: 0.1em;
-        /* text-indent: 0.3esm; */
-        color: white !important;
-        font-weight: 500 !important;
-        /* padding: 0.25em; */
-    }
+  .footer {
+    background-color: #7d6b7d;
+    border-top: 5px solid white;
+  }
 
+  .footLink {
+    font-size: 1.1em !important;
+    letter-spacing: 0.1em;
+    color: white !important;
+    font-weight: 500 !important;
+  }
+
+  .footLinkSeperator {
+    color: white !important;
+    height: 1px;
+    transform: rotate(90deg);
+    margin-left: 44px;
+  }
 }

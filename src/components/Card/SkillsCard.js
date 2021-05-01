@@ -9,7 +9,9 @@ function SkillsCard() {
         <div className="skillsHeader">Skills</div>
         <Row className="dimension">
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Front End  <hr className="titleUnderline" /></Card.Title>
+            <Card.Title className="skillsTitle">
+              Front End <hr className="titleUnderline" />
+            </Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>React</li>
@@ -21,7 +23,10 @@ function SkillsCard() {
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Back End<hr className="titleUnderline" /></Card.Title>
+            <Card.Title className="skillsTitle">
+              Back End
+              <hr className="titleUnderline" />
+            </Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>Express</li>
@@ -33,7 +38,10 @@ function SkillsCard() {
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Deployment<hr className="titleUnderline" /></Card.Title>
+            <Card.Title className="skillsTitle">
+              Deployment
+              <hr className="titleUnderline" />
+            </Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>GitHub</li>
@@ -43,7 +51,10 @@ function SkillsCard() {
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Other<hr className="titleUnderline" /></Card.Title>
+            <Card.Title className="skillsTitle">
+              Other
+              <hr className="titleUnderline" />
+            </Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>GitFlow</li>

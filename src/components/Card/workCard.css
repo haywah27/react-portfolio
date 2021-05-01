@@ -4,14 +4,14 @@
   border-radius: 4px;
   justify-content: center;
   margin: 25px;
-  background-color: rgba(240, 233, 242, .3);
+  background-color: rgba(240, 233, 242, 0.3);
   min-height: 354px;
   border: 10px solid white;
   border-radius: 4px;
   /* background-color: transparent; */
 }
 
-.pointerCursor{
+.pointerCursor {
   cursor: pointer;
 }
 
@@ -30,8 +30,8 @@
   color: #0a2740;
   border: none;
   font-size: 25px;
-  margin-top:5px;
-  margin-bottom:20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .backsideTitle {
@@ -64,8 +64,8 @@
 .linkButton {
   background-color: #556491 !important;
   border-color: #556491 !important;
-  padding: .5rem 1rem!important;
-  font-size:18px!important;
+  padding: 0.5rem 1rem !important;
+  font-size: 18px !important;
 }
 
 .linkButton:hover {

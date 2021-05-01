@@ -84,7 +84,7 @@
 }
 
 @media (max-width: 400px) {
-  .rowContainer{
+  .rowContainer {
     align-items: center;
     justify-content: center;
     margin-bottom: 3rem;
@@ -92,11 +92,13 @@
     margin-left: auto;
   }
 
-  .github, .linkedIn, .resume, .email {
-    margin:5px!important;
+  .github,
+  .linkedIn,
+  .resume,
+  .email {
+    margin: 5px !important;
     padding: 1.5rem;
     width: 100px;
     height: 100px;
   }
 }
-
