@@ -1,8 +1,10 @@
 import "./footer.css";
-import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import React, { useState, useRef } from "react";
+import { Navbar, Nav, Overlay, Tooltip } from "react-bootstrap";
 
 function Footer() {
+  const [show, setShow] = useState(false);
+  const target = useRef(null);
   return (
     <Navbar
       collapseOnSelect
@@ -19,12 +21,22 @@ function Footer() {
       >
         <Nav className="footerMargin">
           <Nav.Link
-            className=" footLink"
+            className="footLink"
+            ref={target}
+            
             onClick={() => {
+              setShow(!show);
+              setTimeout( () => { setShow(false); }, 2500);
               navigator.clipboard.writeText("hello from copy!");
-              alert("Copied to Clipboard!");
             }}
           >
+            <Overlay target={target.current} show={show} placement="right" delay={{ show: 400, hide: 10 }}>
+              {(props) => (
+                <Tooltip id="overlay-example" {...props}>
+                  Copied to Clipboard!
+                </Tooltip>
+              )}
+            </Overlay>
             HayleyWahlroos@gmail.com
           </Nav.Link>
           <div className="footLinkSeperator">|</div>
