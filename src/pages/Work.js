@@ -28,7 +28,7 @@ function Work() {
           <WorkCard
             screenshot={crypto}
             title="Crypto Dashboard"
-            content=""
+            content="Uses facial recognition AI to capture the user's moo"
             githubLink="https://github.com/team-crypto-currency/crypto-investment-tracker"
             liveWebpage="https://crypto-investment-tracker.herokuapp.com/"
           />

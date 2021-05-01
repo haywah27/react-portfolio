@@ -4,8 +4,14 @@
   border-radius: 4px;
   justify-content: center;
   margin: 25px;
-  background-color: #f0e9f2;
+  background-color: rgba(240, 233, 242, .3);
+  /* 240	233	242
+  #f0e9f2 */
+  min-height: 354px;
   cursor: pointer;
+  border: 10px solid white;
+  border-radius: 4px;
+  /* background-color: transparent; */
 }
 
 .image {
@@ -24,7 +30,6 @@
   border: none;
   font-size: 25px;
 }
-
 
 .backsideTitle {
   background-color: transparent !important;
@@ -45,8 +50,8 @@
   margin-bottom: 10px;
 }
 
-.frontsideTitle:hover{
-  color:tomato;
+.frontsideTitle:hover {
+  color: tomato;
   transform: translateY(-2px);
 }
 
@@ -57,11 +62,11 @@
 .linkButton {
   background-color: #556491 !important;
   border-color: #556491 !important;
+  padding: .5rem 1rem!important;
+  font-size:18px!important;
 }
 
 .linkButton:hover {
   background-color: #af749b !important;
   border-color: #af749b !important;
 }
-
-
