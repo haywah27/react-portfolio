@@ -82,6 +82,11 @@
     font-size: 40px !important;
   }
 
+  .skillsBody{
+    font-size: 25px!important;
+    padding-left: 0;
+  }
+
   .skillsCard {
     min-height: 300px;
   }
