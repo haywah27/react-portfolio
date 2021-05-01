@@ -1,6 +1,6 @@
 import React from "react";
 import "../../pages/about.css";
-import { Card, Jumbotron, Row, Col } from "react-bootstrap";
+import { Card, Jumbotron, Row } from "react-bootstrap";
 
 function SkillsCard() {
   return (

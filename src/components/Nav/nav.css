@@ -6,8 +6,9 @@
   background-color: #3d3d3d;
   margin-bottom: 3rem;
 }
+
 .navbar-header {
-  color: #F3BB9A !important;
+  color: #f3bb9a !important;
   margin: 0.1em;
   padding-right: 0.5em;
   padding-left: 0.3em;
@@ -21,9 +22,7 @@
   font-size: 1.75em;
   letter-spacing: 0.1em;
   text-indent: 0.3em;
-  /* color: #091B40!important;*/
-  color: #F3BB9A !important;
-
+  color: #f3bb9a !important;
   font-weight: 500 !important;
   padding: 0.5em;
 }
@@ -40,7 +39,7 @@
 
 @media (max-width: 400px) {
   .navbar-header {
-    color: #F3BB9A !important;
+    color: #f3bb9a !important;
     margin: 10px;
     padding-right: 0.5em;
     padding-left: 0.3em;
@@ -54,7 +53,7 @@
     font-size: 1.25em;
     letter-spacing: 0.1em;
     text-indent: 0.3em;
-    color: #F3BB9A !important;
+    color: #f3bb9a !important;
     font-weight: 500 !important;
     padding: 0.5em;
   }
