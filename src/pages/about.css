@@ -40,7 +40,7 @@
   align-items: center;
   width: 30rem;
   margin: 15px;
-  min-height: 386px;
+  min-height: 402px;
 }
 
 .skillsHeader {
@@ -80,6 +80,10 @@
 
   .skillsHeader {
     font-size: 40px !important;
+  }
+
+  .skillsCard {
+    min-height: 300px;
   }
 
   .cardCss {
