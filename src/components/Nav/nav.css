@@ -38,7 +38,7 @@
   color: #d9d4d0 !important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 400px) {
   .navbar-header {
     color: #F3BB9A !important;
     margin: 10px;
@@ -47,5 +47,15 @@
     font-size: 1.5em;
     font-weight: 500 !important;
     letter-spacing: 0.1em;
+  }
+
+  .navbar-link {
+    margin: 0.1em;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
+    text-indent: 0.3em;
+    color: #F3BB9A !important;
+    font-weight: 500 !important;
+    padding: 0.5em;
   }
 }
