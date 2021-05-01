@@ -5,6 +5,7 @@ import {
   OverlayTrigger,
   Card,
   Button,
+  Row
 } from "react-bootstrap";
 import Resume from "../../assets/Hayley-Wahlroos.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,6 +41,7 @@ function MediaCard() {
       <Card.Body>
         <Card.Title className="title">Find Me Here</Card.Title>
         <hr className="mediaHr" />
+        <Row className="rowContainer">
         <OverlayTrigger
           placement="bottom"
           delay={{ show: 400, hide: 10 }}
@@ -99,6 +101,7 @@ function MediaCard() {
             <FontAwesomeIcon icon={faFile} size="2x"></FontAwesomeIcon>
           </Button>
         </OverlayTrigger>
+        </Row>
       </Card.Body>
     </Card>
   );
