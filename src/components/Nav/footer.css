@@ -1,0 +1,46 @@
+.footer{
+    display:flex;
+    border-top: 15px solid white;
+    margin-bottom:0!important;
+    justify-content: center!important;
+    align-items: center;
+}
+
+.clipboardButton {
+  background-color: #556491 !important;
+  border-color: #556491 !important;
+  color: white;
+}
+
+.footerMargin{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.footLink{
+    margin: 0.1em;
+    font-size: 1.75em;
+    letter-spacing: 0.1em;
+    text-indent: 0.3em;
+    color: white !important;
+    font-weight: 500 !important;
+    padding: 0.25em;
+}
+
+.navbarColapse{
+    text-align: center!important;
+}
+
+
+@media (max-width: 400px) {
+    .footLink{
+        margin: 0.1em;
+        font-size: 1.1em!important;
+        letter-spacing: 0.1em;
+        /* text-indent: 0.3esm; */
+        color: white !important;
+        font-weight: 500 !important;
+        /* padding: 0.25em; */
+    }
+}
