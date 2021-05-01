@@ -32,7 +32,7 @@ function WorkCard(props) {
               className="linkButton"
               onClick={() => window.open(`${props.liveWebpage}`, "_blank")}
             >
-              Webpage
+              Website
             </Button>
           </Card.Body>
         </Card>

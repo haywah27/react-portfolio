@@ -4,7 +4,7 @@ import { Container, Row } from "react-bootstrap";
 import Navigation from "../components/Nav/Nav";
 
 // project images
-import WorkCard from "../components/WorkCard/WorkCard";
+import WorkCard from "../components/Card/WorkCard";
 import moodring from "../assets/Projects/mood-ring.png";
 import crypto from "../assets/Projects/crypto.png";
 import musicSpider from "../assets/Projects/music-spider.png";

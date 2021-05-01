@@ -10,13 +10,22 @@
 }
 
 .alignGreeting {
-  display: inline-block !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.hideBackground{
+  background-color: transparent;
+  border: none;
 }
 
 .titleMessage {
-  font-size: 50px;
+  font-size: 40px!important;
   margin: 20px;
-  color: white;
+  color: #3d3d3d;
+  display: flex;
+  align-items: center;
+  
 }
 
 .cardCss {
@@ -31,9 +40,12 @@
 
 
 @media (max-width: 576px) {
+.mobileMargin{
+  margin-bottom: 0px;
+}
   .titleMessage {
-    font-size: 40px;
-    margin: 20px;
+    font-size: 30px!important;
+    margin: 0px;
   }
 
   .cardCss {
@@ -44,5 +56,6 @@
     font-family: "Quicksand", sans-serif;
     border-radius: 4px;
     background-color: transparent;
+    margin-top: 5px;
   }
 }
