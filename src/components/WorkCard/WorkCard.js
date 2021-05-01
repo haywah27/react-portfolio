@@ -13,14 +13,15 @@ function WorkCard(props) {
   return (
     <>
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-        <Card className="workCard text-center" onClick={handleClick}>
-          <Card.Img className="image" variant="top" src={props.screenshot} />
+        <Card className="workCard text-center">
+          <Card.Img
+            onClick={handleClick}
+            className="image pointerCursor"
+            variant="top"
+            src={props.screenshot}
+          />
           <Card.Body>
-            <Card.Title>
-              <Button className="frontsideTitle">
-                {props.title}
-              </Button>
-            </Card.Title>
+            <Card.Title className="frontsideTitle">{props.title}</Card.Title>
             <Button
               className="leftButton linkButton"
               onClick={() => window.open(`${props.githubLink}`, "_blank")}
@@ -36,15 +37,16 @@ function WorkCard(props) {
           </Card.Body>
         </Card>
 
-        <Card className="workCard text-center" onClick={handleClick}>
+        <Card className="workCard text-center">
           <Card.Body>
-            <Card.Text className="description">
-              <Card.Title className="backsideTitle"> 
-                {props.title}
-              </Card.Title>
-              <hr className="topHr"/>
+            <Card.Text
+              className="description pointerCursor"
+              onClick={handleClick}
+            >
+              <Card.Title className="backsideTitle">{props.title}</Card.Title>
+              <hr className="topHr" />
               {props.content}
-              <hr className="bottomHr"/>
+              <hr className="bottomHr" />
             </Card.Text>
             <Button
               className="leftButton linkButton"
@@ -53,7 +55,7 @@ function WorkCard(props) {
               Code
             </Button>
             <Button
-            className="linkButton"
+              className="linkButton"
               onClick={() => window.open(`${props.liveWebpage}`, "_blank")}
             >
               Webpage

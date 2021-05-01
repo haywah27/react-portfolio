@@ -5,13 +5,14 @@
   justify-content: center;
   margin: 25px;
   background-color: rgba(240, 233, 242, .3);
-  /* 240	233	242
-  #f0e9f2 */
   min-height: 354px;
-  cursor: pointer;
   border: 10px solid white;
   border-radius: 4px;
   /* background-color: transparent; */
+}
+
+.pointerCursor{
+  cursor: pointer;
 }
 
 .image {
@@ -29,11 +30,13 @@
   color: #0a2740;
   border: none;
   font-size: 25px;
+  margin-top:5px;
+  margin-bottom:20px;
 }
 
 .backsideTitle {
   background-color: transparent !important;
-  color: tomato;
+  color: #0a2740;
   border: none;
   font-size: 35px;
   margin-bottom: 5px;
@@ -50,10 +53,11 @@
   margin-bottom: 10px;
 }
 
-.frontsideTitle:hover {
-  color: tomato;
-  transform: translateY(-2px);
+.pageFiller {
+  height: calc(100vh - 300px);
 }
+
+
 
 .leftButton {
   margin-right: 10px;

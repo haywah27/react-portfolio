@@ -39,7 +39,7 @@ function MediaCard() {
     <Card className="mediaCard text-center cardCss">
       <Card.Body>
         <Card.Title className="title">Find Me Here</Card.Title>
-        <hr />
+        <hr className="mediaHr" />
         <OverlayTrigger
           placement="bottom"
           delay={{ show: 400, hide: 10 }}
