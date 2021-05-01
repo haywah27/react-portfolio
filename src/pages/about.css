@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap");
 
+
+
 .dimension {
   display: flex;
   align-items: center;
@@ -40,6 +42,7 @@
 .skillsCard {
   width: 14.4rem;
   margin: 15px;
+  min-height: 311px;
 }
 
 .skillsHeader {

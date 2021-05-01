@@ -17,7 +17,7 @@ function SkillsCard() {
                 <li>JavaScript</li>
                 <li>Bootstrap</li>
                 <li>Bulma</li>
-                <li>Handlebars</li>
+                <li>JQuery</li>
               </ul>
             </Card.Body>
           </Card>
@@ -26,11 +26,11 @@ function SkillsCard() {
             <hr className="titleUnderline"/>
             <Card.Body className="skillsBody">
               <ul>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>Handlebars</li>
+                <li>Express</li>
+                <li>NodeJS</li>
+                <li>Axios</li>
+                <li>MongoDB</li>
+                <li>Sequelize</li>
               </ul>
             </Card.Body>
           </Card>
@@ -39,24 +39,22 @@ function SkillsCard() {
             <hr className="titleUnderline"/>
             <Card.Body className="skillsBody">
               <ul>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>Handlebars</li>
+                <li>GitHub</li>
+                <li>Heroku</li>
+                <li>gh pages</li>
               </ul>
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Random</Card.Title>
+            <Card.Title className="skillsTitle">Other</Card.Title>
             <hr className="titleUnderline"/>
             <Card.Body className="skillsBody">
               <ul>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>Handlebars</li>
+                <li>GitFlow</li>
+                <li>Illustrator</li>
+                <li>Kanban</li>
+                <li>Teamwork</li>
+                <li>Flexibility</li>
               </ul>
             </Card.Body>
           </Card>
