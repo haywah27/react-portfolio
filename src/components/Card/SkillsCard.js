@@ -1,6 +1,6 @@
 import React from "react";
 import "../../pages/about.css";
-import { Card, Jumbotron, Row } from "react-bootstrap";
+import { Card, Jumbotron, Row, Col } from "react-bootstrap";
 
 function SkillsCard() {
   return (
@@ -9,8 +9,7 @@ function SkillsCard() {
         <div className="skillsHeader">Skills</div>
         <Row className="dimension">
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Front End</Card.Title>
-            <hr className="titleUnderline"/>
+            <Card.Title className="skillsTitle">Front End  <hr className="titleUnderline" /></Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>React</li>
@@ -22,8 +21,7 @@ function SkillsCard() {
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Back End</Card.Title>
-            <hr className="titleUnderline"/>
+            <Card.Title className="skillsTitle">Back End<hr className="titleUnderline" /></Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>Express</li>
@@ -35,8 +33,7 @@ function SkillsCard() {
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Deployment</Card.Title>
-            <hr className="titleUnderline"/>
+            <Card.Title className="skillsTitle">Deployment<hr className="titleUnderline" /></Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>GitHub</li>
@@ -46,8 +43,7 @@ function SkillsCard() {
             </Card.Body>
           </Card>
           <Card className="cardCss skillsCard">
-            <Card.Title className="skillsTitle">Other</Card.Title>
-            <hr className="titleUnderline"/>
+            <Card.Title className="skillsTitle">Other<hr className="titleUnderline" /></Card.Title>
             <Card.Body className="skillsBody">
               <ul>
                 <li>GitFlow</li>

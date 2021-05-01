@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300&display=swap");
 
-
-
 .dimension {
-  display: flex;
   align-items: center;
   border-radius: 4px;
   justify-content: center;
@@ -40,9 +37,10 @@
 }
 
 .skillsCard {
-  width: 14.4rem;
+  align-items: center;
+  width: 30rem;
   margin: 15px;
-  min-height: 311px;
+  min-height: 386px;
 }
 
 .skillsHeader {
@@ -53,19 +51,20 @@
 
 .skillsTitle {
   font-size: 30px !important;
-  padding-top: 0.25rem !important;
+  margin-top: 10px;
   color: #3d3d3d;
 }
 
 .titleUnderline {
   background-color: white;
-  margin: 0;
+  margin: 15px;
+  width: 300px !important;;
+  margin-bottom:0;
 }
 
 .skillsBody {
-  font-size: 20px !important;
-  padding-top: 10px;
-  padding-left: 0;
+  font-size: 30px !important;
+  padding-top: 5px;
   text-align: left !important;
 }
 
@@ -77,8 +76,8 @@
     font-size: 30px !important;
     margin: 0px;
   }
-  .skillsHeader{
-    font-size: 40px!important;
+  .skillsHeader {
+    font-size: 40px !important;
   }
 
   .cardCss {
@@ -90,5 +89,12 @@
     border-radius: 4px;
     background-color: transparent;
     margin-top: 5px;
+  }
+
+  .titleUnderline {
+    background-color: white;
+    margin: 15px;
+    width: 200px !important;;
+    margin-bottom:0;
   }
 }
