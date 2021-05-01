@@ -1,5 +1,3 @@
-"i have an art and design background but decided to use those skills toward a technical applicaiton";
-
 import React from "react";
 import "./contact.css";
 import { Jumbotron, Container } from "react-bootstrap";

@@ -21,13 +21,13 @@ function Work() {
           <WorkCard
             screenshot={moodring}
             title="Moodring"
-            content="Uses facial recognition AI to capture the user's mood and provide content to boost or remedy that mood."
+            content="Uses facial recognition AI to capture the user's mood and provide content to 'boost' or 'remedy' that mood."
             githubLink="https://github.com/haywah27/mood-ring"
             liveWebpage="https://moody-ring.herokuapp.com/"
           />
           <WorkCard
             screenshot={crypto}
-            title="Crypto Investment Tracker"
+            title="Crypto Dashboard"
             content=""
             githubLink="https://github.com/team-crypto-currency/crypto-investment-tracker"
             liveWebpage="https://crypto-investment-tracker.herokuapp.com/"
