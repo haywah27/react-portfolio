@@ -10,6 +10,7 @@ function About() {
   return (
     <div>
       <Navigation />
+
       <Container>
         <Jumbotron className="dimension text-center">
           <Container>
