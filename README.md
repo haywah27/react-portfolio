@@ -24,4 +24,4 @@ A React application highlighting three portfolio categories:
 * React Bootstrap
 
 ## Contact
-### For any questions please reach out to me at hayleywahlroos@gmail.com
+For any questions please reach out to me at hayleywahlroos@gmail.com
