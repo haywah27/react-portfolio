@@ -40,11 +40,11 @@ function Work() {
             liveWebpage="https://haywah27.github.io/Music-Spider/"
           />
           <WorkCard
-            screenshot={burgerWorks}
-            title="BurgerWorks"
-            content="Allows a user to keep track of burgers they would like to try. A bucket list for burgers."
-            githubLink="https://github.com/haywah27/BurgerWorks"
-            liveWebpage="https://obscure-beyond-92726.herokuapp.com/"
+            screenshot={googleBooks}
+            title="Book Search Tool"
+            content="A user is able to search, save and delete books by utilizing a Google Books API and MongoDB."
+            githubLink="https://github.com/haywah27/google-books-search"
+            liveWebpage="https://surfing-book-search.herokuapp.com/"
           />
           <WorkCard
             screenshot={employeeDirectory}
@@ -54,11 +54,11 @@ function Work() {
             liveWebpage="https://haywah27.github.io/employee-directory/"
           />
           <WorkCard
-            screenshot={googleBooks}
-            title="Book Search Tool"
-            content="A user is able to search, save and delete books by utilizing a Google Books API and MongoDB."
-            githubLink="https://github.com/haywah27/google-books-search"
-            liveWebpage="https://surfing-book-search.herokuapp.com/"
+            screenshot={burgerWorks}
+            title="BurgerWorks"
+            content="Allows a user to keep track of burgers they would like to try. A bucket list for burgers."
+            githubLink="https://github.com/haywah27/BurgerWorks"
+            liveWebpage="https://obscure-beyond-92726.herokuapp.com/"
           />
         </Row>
       </Container>
