@@ -9,7 +9,7 @@ import moodring from "../assets/Projects/mood-ring.png";
 import crypto from "../assets/Projects/crypto.png";
 import musicSpider from "../assets/Projects/music-spider.png";
 import burgerWorks from "../assets/Projects/burgerWorks.png";
-import weatherDash from "../assets/Projects/weather-dash.png";
+import googleBooks from "../assets/Projects/google-books.png";
 import employeeDirectory from "../assets/Projects/employeeDirectory.png";
 
 function Work() {
@@ -28,37 +28,37 @@ function Work() {
           <WorkCard
             screenshot={crypto}
             title="Crypto Dashboard"
-            content="Uses facial recognition AI to capture the user's moo"
+            content="Empowers investors to explore the prices of different crypto currency without having to sign up for an exchange."
             githubLink="https://github.com/team-crypto-currency/crypto-investment-tracker"
             liveWebpage="https://crypto-investment-tracker.herokuapp.com/"
           />
           <WorkCard
             screenshot={musicSpider}
             title="Music Spider"
-            content=""
+            content="Search lyrics to know the name of a song, artist, lyrics and similar artists. Uses Shazam API and TasteDive API."
             githubLink="https://github.com/haywah27/Music-Spider"
             liveWebpage="https://haywah27.github.io/Music-Spider/"
           />
           <WorkCard
             screenshot={burgerWorks}
             title="BurgerWorks"
-            content=""
-            githubLink=""
-            liveWebpage=""
+            content="Allows a user to keep track of burgers they would like to try. A bucket list for burgers."
+            githubLink="https://github.com/haywah27/BurgerWorks"
+            liveWebpage="https://obscure-beyond-92726.herokuapp.com/"
           />
           <WorkCard
             screenshot={employeeDirectory}
             title="Employee Directory"
-            content=""
+            content="View and sort non-sensitive data about employees."
             githubLink="https://github.com/haywah27/employee-directory"
             liveWebpage="https://haywah27.github.io/employee-directory/"
           />
           <WorkCard
-            screenshot={weatherDash}
-            title="Weather Dashboard"
-            content=""
-            githubLink=""
-            liveWebpage=""
+            screenshot={googleBooks}
+            title="Book Search Tool"
+            content="A user is able to search, save and delete books by utilizing a Google Books API and MongoDB."
+            githubLink="https://github.com/haywah27/google-books-search"
+            liveWebpage="https://surfing-book-search.herokuapp.com/"
           />
         </Row>
       </Container>
