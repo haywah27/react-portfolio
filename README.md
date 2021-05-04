@@ -1,7 +1,7 @@
 # Hayley Wahlroos Portfolio
 
 ## Link to Live Page
-### https://wahlroos.netlify.app/
+### https://haywah27.github.io/react-portfolio/
 
 ## Description
 A React application highlighting three portfolio categories: 
