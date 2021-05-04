@@ -9,11 +9,9 @@ function App() {
   return (
     <div>
       <HashRouter>
-        <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/work" component={Work} />
           <Route exact path="/contact" component={Contact} />
-        </Switch>
       </HashRouter>
     </div>
   );
