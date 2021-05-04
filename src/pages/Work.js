@@ -2,6 +2,7 @@ import React from "react";
 import "./work.css";
 import { Container, Row } from "react-bootstrap";
 import Navigation from "../components/Nav/Nav";
+import Footer from "../components/Nav/Foot";
 
 // project images
 import WorkCard from "../components/Card/WorkCard";
@@ -62,6 +63,7 @@ function Work() {
           />
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }

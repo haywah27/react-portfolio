@@ -19,7 +19,7 @@ function Contact() {
           </Container>
         </Jumbotron>
       </Container>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
