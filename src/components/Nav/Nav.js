@@ -15,10 +15,10 @@ function Navigation() {
           <Nav.Link className="navbar-link" href="/react-portfolio/">
             About
           </Nav.Link>
-          <Nav.Link className="navbar-link" href="/react-portfolio/work">
+          <Nav.Link className="navbar-link" href="/react-portfolio/#/work">
             Work
           </Nav.Link>
-          <Nav.Link className="navbar-link" href="/react-portfolio/contact">
+          <Nav.Link className="navbar-link" href="/react-portfolio/#/contact">
             Contact
           </Nav.Link>
         </Nav>
