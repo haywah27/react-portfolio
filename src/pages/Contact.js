@@ -15,7 +15,6 @@ function Contact() {
           <Container>
             <MediaCard />
             {/* <ContactForm /> */}
-            <Container className="pageFiller"></Container>
           </Container>
         </Jumbotron>
       </Container>

@@ -17,7 +17,7 @@ function Work() {
   return (
     <div>
       <Navigation />
-      <Container>
+      <Container className="pageContainer">
         <Row className="cardContainer">
           <WorkCard
             screenshot={moodring}
