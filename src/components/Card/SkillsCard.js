@@ -45,8 +45,9 @@ function SkillsCard() {
             <Card.Body className="skillsBody">
               <ul>
                 <li>GitHub</li>
-                <li>Heroku</li>
                 <li>gh pages</li>
+                <li>Heroku</li>
+                <li>Netlify</li>
               </ul>
             </Card.Body>
           </Card>
