@@ -32,8 +32,8 @@ function SkillsCard() {
                 <li>Express</li>
                 <li>NodeJS</li>
                 <li>Axios/Ajax</li>
-                <li>Mongoose</li>
-                <li>Sequelize</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
               </ul>
             </Card.Body>
           </Card>
@@ -58,7 +58,7 @@ function SkillsCard() {
             </Card.Title>
             <Card.Body className="skillsBody">
               <ul>
-                <li>GitFlow</li>
+                <li>Git</li>
                 <li>Illustrator</li>
                 <li>Kanban</li>
                 <li>Teamwork</li>

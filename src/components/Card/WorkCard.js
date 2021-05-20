@@ -13,6 +13,7 @@ function WorkCard(props) {
   return (
     <>
       <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+        {/* Front side of card */}
         <Card className="workCard text-center">
           <Card.Img
             onClick={handleClick}
@@ -37,6 +38,7 @@ function WorkCard(props) {
           </Card.Body>
         </Card>
 
+        {/* Back side of card */}
         <Card className="workCard text-center">
           <Card.Body>
             <Card.Text
@@ -64,7 +66,6 @@ function WorkCard(props) {
         </Card>
       </ReactCardFlip>
     </>
-    
   );
 }
 
