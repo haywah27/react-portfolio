@@ -36,11 +36,16 @@
   background-color: transparent;
 }
 
+.aboutBody{
+  color: #3d3d3d;
+}
+
 .skillsCard {
   align-items: center;
   width: 30rem;
   margin: 15px;
   min-height: 402px;
+  color: #3d3d3d!important;
 }
 
 .skillsHeader {
