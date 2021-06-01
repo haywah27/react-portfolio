@@ -62,7 +62,7 @@ function SkillsCard() {
                 <li>Illustrator</li>
                 <li>Kanban</li>
                 <li>Teamwork</li>
-                <li>Flexibility</li>
+                <li>Adaptability</li>
               </ul>
             </Card.Body>
           </Card>
