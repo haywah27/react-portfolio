@@ -57,6 +57,8 @@
   border-color: #cccccc;
   border-style: solid;
   border-width: 1px;
+  height: 58px;
+  width: 72px;
 }
 
 .github:hover {
@@ -65,6 +67,8 @@
   border-color: #444;
   border-style: solid;
   border-width: 1px;
+  height: 58px;
+  width: 72px;
 }
 
 .linkedIn:hover {
@@ -73,6 +77,8 @@
   border-color: #007bb6;
   border-style: solid;
   border-width: 1px;
+  height: 59px;
+  width: 67px;
 }
 
 .resume:hover {
@@ -81,6 +87,8 @@
   border-color: #a65b69;
   border-style: solid;
   border-width: 1px;
+  height: 59px;
+  width: 62px;
 }
 
 @media (max-width: 400px) {
