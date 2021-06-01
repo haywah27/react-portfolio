@@ -72,3 +72,7 @@
   background-color: #af749b !important;
   border-color: #af749b !important;
 }
+
+.image:hover {
+  opacity: 60%;
+}
