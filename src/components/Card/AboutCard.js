@@ -6,10 +6,7 @@ function AboutCard() {
   return (
     <Card className="cardCss">
       <Card.Body className="aboutBody">
-        I graduated from the University of Oregon with a Bachelor of Science in
-        Art and Technology. Recently, I have shifted my focus from design to
-        full stack development. I love dogs, learning new things and exploring
-        the outdoors!
+      I'm a full stack web developer leveraging a design background to build quality user experiences in mobile and web applications. I've recently earned a certificate in full stack development from the University of Oregon, enhancing my skills in responsive web design using JavaScript, React and more. I'm passionate about creating life-enhancing user experiences and collaborating with others to develop meaningful applications. 
       </Card.Body>
     </Card>
   );
