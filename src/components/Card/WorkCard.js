@@ -49,6 +49,9 @@ function WorkCard(props) {
               <hr className="topHr" />
               {props.content}
               <hr className="bottomHr" />
+              {props.tech}
+              <br />
+              <hr className="bottomHr" />
             </Card.Text>
             <Button
               className="leftButton linkButton"
